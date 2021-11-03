@@ -32,6 +32,10 @@ h1,h2 {
     margin: 10px 0;
 }
 
+.logo {
+    text-shadow: -5px 4px 5px rgb(94, 82, 82);
+}
+
 p {
     margin: 10px 0;
 }
@@ -46,6 +50,8 @@ img {
     background-color: var(--primary-color);
     color: #fff;
     height: 70px;
+    position: sticky;
+    top: 0;
 }
 
 .navbar ul {
